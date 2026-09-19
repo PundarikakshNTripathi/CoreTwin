@@ -1,4 +1,4 @@
-add_library(coretwin_kernels STATIC custom_kernels.cu)
+add_library(coretwin_kernels STATIC custom_kernels.cu lbs_plugin.cu)
 target_include_directories(coretwin_kernels PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(coretwin_kernels PUBLIC CUDA::cudart)
 set_target_properties(coretwin_kernels PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
