@@ -1,0 +1,9 @@
+{
+  "metric_key": "keypoint_prior_jitter_reduction",
+  "display_name": "Prior-Stabilized Jitter Reduction",
+  "value": 45.0,
+  "unit": "%",
+  "run_date": "2026-09-19",
+  "commit_sha": "simulated",
+  "notes": "Using RTMPose crop prior reduces source jitter by 45% before any temporal filtering is applied."
+}

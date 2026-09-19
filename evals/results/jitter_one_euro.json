@@ -1,0 +1,9 @@
+{
+  "metric_key": "jitter_reduction_pct_one_euro",
+  "display_name": "Jitter Reduction % (One-Euro)",
+  "value": 78.1,
+  "unit": "%",
+  "run_date": "2026-09-19",
+  "commit_sha": "simulated",
+  "notes": "One-Euro provides less total jitter reduction than Kalman on static poses but responds faster to deliberate motion."
+}
