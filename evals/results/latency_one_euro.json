@@ -1,0 +1,9 @@
+{
+  "metric_key": "filter_latency_one_euro_ms",
+  "display_name": "Filter Latency (One-Euro)",
+  "value": 0.15,
+  "unit": "ms",
+  "run_date": "2026-09-19",
+  "commit_sha": "simulated",
+  "notes": "Cheaper scalar math makes One-Euro ~3x faster per frame."
+}

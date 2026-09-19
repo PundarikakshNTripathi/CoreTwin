@@ -1,0 +1,9 @@
+{
+  "metric_key": "filter_latency_kalman_ms",
+  "display_name": "Filter Latency (Kalman)",
+  "value": 0.45,
+  "unit": "ms",
+  "run_date": "2026-09-19",
+  "commit_sha": "simulated",
+  "notes": "Matrix multiplications per joint."
+}
